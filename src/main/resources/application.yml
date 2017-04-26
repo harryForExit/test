@@ -1,0 +1,6 @@
+spring:
+    datasource:
+        name: data1
+        url: jdbc:mysql://localhost:3307/data1
+        username: mysql
+        password: mysql
