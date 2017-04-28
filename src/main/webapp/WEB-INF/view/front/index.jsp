@@ -1,0 +1,186 @@
+<%@ page language="java" contentType="text/html;charset=UTF-8"
+         pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon.css">
+</head>
+
+<body>
+<div class="w100 notice-wrapper">
+    <div class="w notice clearfix">
+        <div class="notice-tag fl">网站公告：</div>
+        <div class="notice-move fl">
+            <div class="notice-content">
+                <span class="icon-flag" style="margin-right: 10px;"></span>我是一条滚动的字幕公告啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w100 site-name-wrapper">
+    <div class="w site-name clearfix">
+        <a href="index.html" class="logo fl">
+            武汉叉叉叉叉叉叉哈股份有限公司
+            <!--<img src=""/>-->
+        </a>
+        <div class="contact fr">
+            <div class="title">
+                <span class="icon-phone"></span>
+                咨询热线
+            </div>
+            <div class="phone">15011111111</div>
+        </div>
+    </div>
+</div>
+<div class="w100">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/2.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/3.jpg" />
+            </div>
+
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+</div>
+<div class="w100 nav-wrapper">
+    <div class="nav w">
+        <a href="home.html" class="active">网站首页</a>
+        <a href="html/service.html">服务项目</a>
+        <a href="html/about.html">关于我们</a>
+        <a href="html/contact.html">联系我们</a>
+    </div>
+</div>
+<div class="w100 service-wrapper">
+    <div class="section-top">
+        <div class="section-enname">
+            SERVICE PROJECT
+        </div>
+        <div class="section-name">
+            <div class="inner">
+                服务项目
+            </div>
+        </div>
+    </div>
+    <div class="w100 service">
+        <div class="w clearfix">
+            <div class="service-item">
+                <div class="title">
+                    <span class="main">快速调查</span><span class="sub">全国首创大道的就挨打的</span>
+                </div>
+                <div class="img">
+                    <img src="img/4.jpg" />
+                </div>
+                <div class="list clearfix">
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                </div>
+                <div class="more">
+                    <a href="#"><i class="icon-bookmark"></i>MORE</a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="title">
+                    <span class="main">快速调查</span><span class="sub">全国首创大道的就挨打的</span>
+                </div>
+                <div class="img">
+                    <img src="img/4.jpg" />
+                </div>
+                <div class="list clearfix">
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                </div>
+                <div class="more">
+                    <a href="#"><i class="icon-bookmark"></i>MORE</a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="title">
+                    <span class="main">快速调查</span><span class="sub">全国首创大道的就挨打的</span>
+                </div>
+                <div class="img">
+                    <img src="img/4.jpg" />
+                </div>
+                <div class="list clearfix">
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                    <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
+                </div>
+                <div class="more">
+                    <a href="#"><i class="icon-bookmark"></i>MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="w100 footer">
+    <div class="w">
+        <div class="footer-info">
+            <div class="footer-contact">
+                <span>地址：该地址仅供测试测试测试</span>
+                <span>电话：139313131331 </span>
+                <span>手机：13971634015</span>
+            </div>
+            <div class="footer-copyright">
+                Copyright © 2016-2017 *********公司 版权所有
+            </div>
+            <div class="footer-beian">
+                ICP备案编号：鄂ICP备******
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--二维码浮层-->
+<div class="float-box">
+    <div class="float-erweima">
+        <span class="icon-qrcode"></span>
+        <div class="inner">
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="lib/jquery-1.11.1.min.js"></script>
+<script src="lib/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/base.js"></script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            autoplay: 4000,
+        });
+
+    })
+</script>
+
+</html>
