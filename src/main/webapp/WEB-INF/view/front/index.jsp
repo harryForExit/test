@@ -1,23 +1,21 @@
-<%@ page language="java" contentType="text/html;charset=UTF-8"
-         pageEncoding="UTF-8"%>
-
+<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="${url}/front/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="${url}/front/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="${url}/front/css/swiper.min.css" />
+    <link rel="stylesheet" href="${url}/front/css/style.css">
+    <link rel="stylesheet" href="${url}/front/css/icon.css">
 </head>
 
 <body>
 <div class="w100 notice-wrapper">
     <div class="w notice clearfix">
-        <div class="notice-tag fl">网站公告：</div>
+        <div class="notice-tag fl">网站公告:</div>
         <div class="notice-move fl">
             <div class="notice-content">
                 <span class="icon-flag" style="margin-right: 10px;"></span>我是一条滚动的字幕公告啊啊啊啊啊啊啊啊啊啊啊啊啊啊
@@ -44,10 +42,10 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="img/2.jpg" />
+                <img src="${url}/front/img/2.jpg" />
             </div>
             <div class="swiper-slide">
-                <img src="img/3.jpg" />
+                <img src="${url}/front/img/3.jpg" />
             </div>
 
         </div>
@@ -59,9 +57,9 @@
 <div class="w100 nav-wrapper">
     <div class="nav w">
         <a href="home.html" class="active">网站首页</a>
-        <a href="html/service.html">服务项目</a>
-        <a href="html/about.html">关于我们</a>
-        <a href="html/contact.html">联系我们</a>
+        <a href="../../../../resources/static/html/service.html">服务项目</a>
+        <a href="../../../../resources/static/html/about.html">关于我们</a>
+        <a href="../../../../resources/static/html/contact.html">联系我们</a>
     </div>
 </div>
 <div class="w100 service-wrapper">
@@ -82,7 +80,7 @@
                     <span class="main">快速调查</span><span class="sub">全国首创大道的就挨打的</span>
                 </div>
                 <div class="img">
-                    <img src="img/4.jpg" />
+                    <img src="${url}/front/img/4.jpg" />
                 </div>
                 <div class="list clearfix">
                     <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
@@ -101,7 +99,7 @@
                     <span class="main">快速调查</span><span class="sub">全国首创大道的就挨打的</span>
                 </div>
                 <div class="img">
-                    <img src="img/4.jpg" />
+                    <img src="${url}/front/img/4.jpg" />
                 </div>
                 <div class="list clearfix">
                     <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
@@ -120,7 +118,7 @@
                     <span class="main">快速调查</span><span class="sub">全国首创大道的就挨打的</span>
                 </div>
                 <div class="img">
-                    <img src="img/4.jpg" />
+                    <img src="${url}/front/img/4.jpg" />
                 </div>
                 <div class="list clearfix">
                     <a href="#"><i class="icon-bookmark"></i>婚姻咨询</a>
@@ -168,10 +166,10 @@
     </div>
 </div>
 </body>
-<script src="lib/jquery-1.11.1.min.js"></script>
-<script src="lib/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/base.js"></script>
-<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<script src="${url}/front/lib/jquery-1.11.1.min.js"></script>
+<script src="${url}/front/lib/swiper.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="${url}/front/js/base.js"></script>
+<script src="${url}/front/js/index.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
     $(function() {
         var swiper = new Swiper('.swiper-container', {

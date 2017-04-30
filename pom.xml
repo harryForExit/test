@@ -46,9 +46,6 @@
             <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
     </dependencies>
-
-
-
     <build>
         <plugins>
             <plugin>
